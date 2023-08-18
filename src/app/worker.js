@@ -21,18 +21,20 @@ class PipelineSingleton {
 self.addEventListener('message', async (event) => {
     // Retrieve the classification pipeline. When called for the first time,
     // this will load the pipeline and save it for future use.
-    let classifier = await PipelineSingleton.getInstance(x => {
+    let emb = await PipelineSingleton.getInstance(x => {
         // We also add a progress callback to the pipeline so that we can
         // track model loading.
         self.postMessage(x);
     });
 
     // Actually perform the classification
-    let output = await classifier(event.data.text);
+    let output = await emb(event.data.text);
+
+    console.log(output.data.slice(0,768))
 
     // Send the output back to the main thread
     self.postMessage({
         status: 'complete',
-        output: output,
+        output: output.data.slice(0,768),
     });
 });

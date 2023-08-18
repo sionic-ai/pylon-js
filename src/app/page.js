@@ -42,7 +42,7 @@ export default function Home() {
     return () => worker.current.removeEventListener('message', onMessageReceived);
   });
 
-  const classify = useCallback((text) => {
+  const embedding = useCallback((text) => {
     if (worker.current) {
       worker.current.postMessage({ text });
     }
@@ -57,7 +57,7 @@ export default function Home() {
         className="w-full max-w-xs p-2 border border-gray-300 rounded mb-4 text-black"
         placeholder="Enter text here"
         onInput={e => {
-          classify(e.target.value);
+          embedding(e.target.value);
         }}
       />
 
