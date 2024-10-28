@@ -1,6 +1,9 @@
 
 ![image](https://github.com/sionic-ai/pylon-js/assets/69115576/33bc973b-412c-4b22-a742-dd628af96f16)
 
+<img width="675" alt="Screenshot 2024-10-28 at 10 49 22 PM" src="https://github.com/user-attachments/assets/19f90176-d0a7-43e4-88b2-5789164dadbd">
+
+
 ## Getting Started
 
 First, run the development server:
