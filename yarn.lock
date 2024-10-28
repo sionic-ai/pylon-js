@@ -51,14 +51,14 @@
   resolved "https://registry.yarnpkg.com/@huggingface/jinja/-/jinja-0.3.1.tgz#4fd73c9cf450a25ec4f8a8969290231c4ec37d98"
   integrity sha512-SbcBWUKDQ76lzlVYOloscUk0SJjuL1LcbZsfQv/Bxxc7dwJMYuS+DAQ+HhVw6ZkTFXArejaX5HQRuCuleYwYdA==
 
-"@huggingface/transformers@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@huggingface/transformers/-/transformers-3.0.0.tgz#32a7b3a70e965d5c829cf48f111383d24aa5172c"
-  integrity sha512-OWIPnTijAw4DQ+IFHBOrej2SDdYyykYlTtpTLCEt5MZq/e9Cb65RS2YVhdGcgbaW/6JAL3i8ZA5UhDeWGm4iRQ==
+"@huggingface/transformers@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@huggingface/transformers/-/transformers-3.0.1.tgz#3de0eaa6126fd427ede6414bd3b385bfac284498"
+  integrity sha512-lXmF0/p+ZdQX0NKTybLUCzIKr0sKD6BfqtjL7olaLx2JHAM3HKVrvFjWeFe2lQRkhL6cEcFw2WXs7o8nZU/WGg==
   dependencies:
     "@huggingface/jinja" "^0.3.0"
     onnxruntime-node "1.19.2"
-    onnxruntime-web "1.20.0-dev.20241016-2b8fc5529b"
+    onnxruntime-web "1.21.0-dev.20241024-d9ca84ef96"
     sharp "^0.33.5"
 
 "@humanwhocodes/config-array@^0.11.10":
@@ -2169,10 +2169,10 @@ onnxruntime-node@1.19.2:
     onnxruntime-common "1.19.2"
     tar "^7.0.1"
 
-onnxruntime-web@1.20.0-dev.20241016-2b8fc5529b:
-  version "1.20.0-dev.20241016-2b8fc5529b"
-  resolved "https://registry.yarnpkg.com/onnxruntime-web/-/onnxruntime-web-1.20.0-dev.20241016-2b8fc5529b.tgz#516808f891a036761cf7a47a131e8d2d09f9a25c"
-  integrity sha512-1XovqtgqeEFtupuyzdDQo7Tqj4GRyNHzOoXjapCEo4rfH3JrXok5VtqucWfRXHPsOI5qoNxMQ9VE+drDIp6woQ==
+onnxruntime-web@1.21.0-dev.20241024-d9ca84ef96:
+  version "1.21.0-dev.20241024-d9ca84ef96"
+  resolved "https://registry.yarnpkg.com/onnxruntime-web/-/onnxruntime-web-1.21.0-dev.20241024-d9ca84ef96.tgz#76bf67b715c50a8a71d58e910c00320e430628fa"
+  integrity sha512-ANSQfMALvCviN3Y4tvTViKofKToV1WUb2r2VjZVCi3uUBPaK15oNJyIxhsNyEckBr/Num3JmSXlkHOD8HfVzSQ==
   dependencies:
     flatbuffers "^1.12.0"
     guid-typescript "^1.0.9"
